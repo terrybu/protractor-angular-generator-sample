@@ -17,6 +17,9 @@ This will start up a Selenium Server and will output a bunch of info logs. Your 
 
 2) Run the app normally (grunt serve) with mongod in the background
   * If you get any errors, make sure you've run bower install and npm install 
+
 3) configure your protractor config file at protractor.conf.js in the root folder
+
 4) All your specs are in e2e/main/main.spec.js 
+
 5) run protractor protractor.conf.js
